@@ -1,0 +1,35 @@
+Tải Git
+git config --list
+git config --global user.name ""
+git config --global user.email ""
+Cài Key SSH
+ssh-keygen -t ed25519 -C "your_email@example.com"
+
+- Clone 1 project có sẵn : git clone link_https/ssh
+- Tạo 1 project trên github
+1. Tạo 1 GitHub repository (folder) nơi chứa code
+2. Clone project này: git clone link_https_your_project
+3. Viết lệnh:
+git status (kiểm tra trạng thái files)
+git add . (thêm file)
+git commit -m "your_message" (tạo nội dung commit)
+git push origin main
+
+- Tạo project local và đẩy lên github 
+1. Tạo 1 GitHub repository (folder) nơi chứa code
+2. git init
+3. Viết code
+git status (kiểm tra trạng thái files)
+git add . (thêm file)
+git commit -m "your_message" (tạo nội dung commit)
+git remote add origin https://github.com/thanhkm69/FashionShop.git
+git push origin master
+
+5. Làm việc nhóm
+git pull = git fetch + git merge
+git merge
+git conflict
+git checkout branch/commit
+
+git checkout -b branch_name (tạo mới 1 branch)
+git checkout branch_name (check code tại 1 branch đã tạo)

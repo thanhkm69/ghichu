@@ -1,0 +1,7 @@
+B1: Vào CMD 
+B2: cd C:\xampp\htdocs\FashionShop\admin\nguoidung
+B3: Gõ file chạy (php insert_all_xa.php);
+
+Chạy trên localhost(Web)
+
+

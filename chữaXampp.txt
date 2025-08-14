@@ -1,0 +1,4 @@
+B1: Copy data
+B2: Vào data xóa hết trừ folder bài học với ibdata1
+B3: Vào backup sao chép hết trừ ibdata1 vào data
+
