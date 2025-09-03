@@ -31,5 +31,7 @@ git merge
 git conflict
 git checkout branch/commit
 
+git branch (check xem có bao nhiêu nhánh và mình đang ở nhánh nào)
+git branch -M main (đổi tên nhánh master thành main)
 git checkout -b branch_name (tạo mới 1 branch)
 git checkout branch_name (check code tại 1 branch đã tạo)
